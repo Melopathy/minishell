@@ -50,7 +50,7 @@ SRC = ft_isalnum.c \
 	ft_strtrim.c \
 	ft_striteri.c 
 
-GNL_SRCS = GNL/get_next_line.c GNL/get_next_line_utils.c
+GNL_SRCS = gnl/get_next_line.c gnl/get_next_line_utils.c
 
 PRINTF_SRCS = printf/ft_printf.c \
 	printf/print_char.c \
