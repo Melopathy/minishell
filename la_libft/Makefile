@@ -50,15 +50,15 @@ SRC = ft_isalnum.c \
 	ft_strtrim.c \
 	ft_striteri.c 
 
-GNL_SRCS = gnl/get_next_line.c gnl/get_next_line_utils.c
+GNL_SRCS = le_gnl/get_next_line.c le_gnl/get_next_line_utils.c
 
-PRINTF_SRCS = printf/ft_printf.c \
-	printf/print_char.c \
-	printf/print_string.c \
-	printf/print_number.c \
-	printf/print_unsigned.c \
-	printf/print_hex.c \
-	printf/print_pointer.c \
+PRINTF_SRCS = le_printf/ft_printf.c \
+	le_printf/print_char.c \
+	le_printf/print_string.c \
+	le_printf/print_number.c \
+	le_printf/print_unsigned.c \
+	le_printf/print_hex.c \
+	le_printf/print_pointer.c \
 
 SRCS = $(SRC) $(GNL_SRCS) $(PRINTF_SRCS)
 

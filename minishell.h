@@ -13,7 +13,7 @@
 # include <stdbool.h>
 # include <readline/readline.h>
 # include <readline/history.h>
-# include "libft/libft.h"
+# include "la_libft/libft.h"
 
 typedef enum e_tk_type {
 	TOKEN_WORD,
