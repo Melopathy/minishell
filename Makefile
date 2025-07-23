@@ -14,13 +14,13 @@ OBJS = $(SRCS:.c=.o)
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -g
-INCLUDES = -I./libft
+INCLUDES = -I./la_libft
 READLINE = -lreadline
 
-LIBS = -L./libft -lft
-LIBFT_DIR = ./libft
+LIBS = -L./la_libft -lft
+LIBFT_DIR = ./la_libft
 
-all: libft $(NAME)
+all: la_libft $(NAME)
 
 $(NAME): $(OBJS)
 	$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIBS) $(READLINE)
